@@ -18,4 +18,9 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">疯狂帽子</string>
     <string name="action_settings">设置</string>
+    <string name="save_money">省钱</string>
+    <string name="get_money">赚钱</string>
+    <string name="find_somethings">发现</string>
+    <string name="my_order">订单</string>
+    <string name="my_profiles">我的</string>
 </resources>

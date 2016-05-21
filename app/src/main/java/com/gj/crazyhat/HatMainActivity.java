@@ -2,11 +2,9 @@ package com.gj.crazyhat;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
@@ -30,8 +28,8 @@ public class HatMainActivity extends AppCompatActivity {
         AHBottomNavigationItem item1 = new AHBottomNavigationItem(R.string.save_money, R.drawable.ic_save_money, R.color.color_tab_1);
         AHBottomNavigationItem item2 = new AHBottomNavigationItem(R.string.get_money, R.drawable.ic_get_money, R.color.color_tab_2);
         AHBottomNavigationItem item3 = new AHBottomNavigationItem(R.string.find_somethings, R.drawable.ic_find, R.color.color_tab_3);
-        AHBottomNavigationItem item4 = new AHBottomNavigationItem(R.string.my_order, R.drawable.ic_order, R.color.color_tab_3);
-        AHBottomNavigationItem item5 = new AHBottomNavigationItem(R.string.my_profiles, R.drawable.ic_my_profiles, R.color.color_tab_3);
+        AHBottomNavigationItem item4 = new AHBottomNavigationItem(R.string.my_order, R.drawable.ic_order, R.color.color_tab_4);
+        AHBottomNavigationItem item5 = new AHBottomNavigationItem(R.string.my_profiles, R.drawable.ic_my_profiles, R.color.color_tab_5);
 
         // Add items
         bottomNavigation.addItem(item1);

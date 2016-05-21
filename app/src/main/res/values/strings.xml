@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">CrazyHat</string>
     <string name="action_settings">Settings</string>
+    <string name="save_money">save money</string>
+    <string name="get_money">get money</string>
+    <string name="find_somethings">find some</string>
+    <string name="my_order">order</string>
+    <string name="my_profiles">my profiles</string>
 </resources>

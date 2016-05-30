@@ -24,6 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CitySelectActivity"
+            android:label="@string/select_college"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.gj.crazyhat.show_city_list" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

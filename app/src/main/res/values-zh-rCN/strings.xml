@@ -23,4 +23,6 @@
     <string name="find_somethings">发现</string>
     <string name="my_order">订单</string>
     <string name="my_profiles">我的</string>
+    <string name="select_college">选择大学</string>
+    <string name="title_activity_guide">引导页</string>
 </resources>

@@ -7,4 +7,5 @@
     <string name="my_order">order</string>
     <string name="my_profiles">my profiles</string>
     <string name="title_activity_guide">GuideActivity</string>
+    <string name="select_college">select college</string>
 </resources>

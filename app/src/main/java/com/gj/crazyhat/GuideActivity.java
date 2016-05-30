@@ -1,23 +1,22 @@
 package com.gj.crazyhat;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.graphics.Color;
-import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.gj.crazyhat.adapter.ViewPaperAdapter;
 
 import java.util.ArrayList;
 
-public class GuideActivity extends AppCompatActivity {
+public class GuideActivity extends Activity {
 
     private ViewPager mViewPager;
     private Button mBtnGo;
@@ -46,7 +45,11 @@ public class GuideActivity extends AppCompatActivity {
         mBtnGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(GuideActivity.this, "Go Home", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(GuideActivity.this, "Go Home", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent();
+                intent.setAction(HatActions.SHOW_CITY_SELECT);
+                intent.setPackage("com.gj.crazyhat");
+                startActivity(intent);
             }
         });
 

@@ -6,4 +6,5 @@
     <string name="find_somethings">find some</string>
     <string name="my_order">order</string>
     <string name="my_profiles">my profiles</string>
+    <string name="title_activity_guide">GuideActivity</string>
 </resources>
